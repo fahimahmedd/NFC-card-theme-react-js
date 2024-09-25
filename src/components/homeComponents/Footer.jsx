@@ -28,7 +28,7 @@ const Footer = () => {
                 </a>
               </Grid>
               <Grid item lg={3} md={3} xs={6}>
-                <a href="#">
+                <a href="#"> 
                   <div className="follow_item">
                     <img src={watsapp} alt="" />
                     <div className="f_title">
