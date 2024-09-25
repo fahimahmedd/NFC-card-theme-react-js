@@ -14,7 +14,7 @@ const Footer = () => {
         <Container>
           <div className="follow_wrapper">
             <Grid container alignItems="center">
-              <Grid item xs={3}>
+              <Grid item lg={3} md={3} xs={6}>
                 <a href="#">
                   <div className="follow_item">
                     <img src={facebook} alt="" />
@@ -27,7 +27,7 @@ const Footer = () => {
                   </div>
                 </a>
               </Grid>
-              <Grid item xs={3}>
+              <Grid item lg={3} md={3} xs={6}>
                 <a href="#">
                   <div className="follow_item">
                     <img src={watsapp} alt="" />
@@ -40,7 +40,7 @@ const Footer = () => {
                   </div>
                 </a>
               </Grid>
-              <Grid item xs={3}>
+              <Grid item lg={3} md={3} xs={6}>
                 <a href="#">
                   <div className="follow_item">
                     <img src={linkedin} alt="" />
@@ -53,7 +53,7 @@ const Footer = () => {
                   </div>
                 </a>
               </Grid>
-              <Grid item xs={3}>
+              <Grid item lg={3} md={3} xs={6}>
                 <a href="#">
                   <div className="follow_item border_none">
                     <img src={twitter} alt="" />
@@ -76,12 +76,12 @@ const Footer = () => {
                <div className="footer_wrapper">
                <h2> Honesty In Our DNA !  </h2>
                   <Grid container spacing={2}>
-                      <Grid item xs={4}>
+                      <Grid item lg={4} xs={12}>
                           <div className="footer_wrap">
                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cumque placeat quaerat fuga culpa perferendis temporibus ipsam. Autem magni officiis laudantium. Aliquam ratione officiis consequatur sit, cum magni dolores tempore quo obcaecati. </p>
                           </div>
                       </Grid>
-                      <Grid item xs={2}>
+                      <Grid item lg={2} xs={4}>
                           <div className="footer_wrap">
                               <h4> Learn more </h4>
                               <ul>
@@ -93,13 +93,13 @@ const Footer = () => {
                               </ul>
                           </div>
                       </Grid>
-                      <Grid item xs={3}>
+                      <Grid item lg={3} xs={4}>
                           <div className="footer_wrap">
                               <h4> Get In Touch </h4>
                               <h5>Mostofa road 7/88 link road Kamar para Farmgate 1217</h5>
                           </div>
                       </Grid>
-                      <Grid item xs={3}>
+                      <Grid item lg={3} xs={4}>
                           <div className="footer_wrap">
                               <h4> Our Newsletter </h4>
                               <h5>Subscribe to our newsletter to get our news and deal delivered to you.</h5>
@@ -116,7 +116,7 @@ const Footer = () => {
           </Container>
         </div>
         <div className="copyright">
-          <span> All data reserved by this company </span>
+          <span> All data reserved @ by Fahim Ahmed </span>
         </div>
       </div>
     </>

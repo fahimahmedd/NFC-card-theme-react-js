@@ -10,12 +10,12 @@ const Mobile = () => {
                 <Container>
                     <div className="mobile_wrapper">
                         <Grid container spacing={2} alignItems="center">
-                            <Grid item xs={7}>
+                            <Grid item lg={7} xs={12}>
                                 <h4>Elevate Your Networking With Smart Whay</h4>
 
                                 <div className="info_container border_bottom">
                                         <Grid container spacing={2}>
-                                            <Grid item xs={6}>
+                                            <Grid item sm={6} xs={12}>
                                                 <div className="info_item">
                                                     <div className="item_left">
                                                         <div className="dot">
@@ -28,7 +28,7 @@ const Mobile = () => {
                                                     </div>
                                                 </div>
                                             </Grid>
-                                            <Grid item xs={6}>
+                                            <Grid item sm={6} xs={12}>
                                                 <div className="info_item">
                                                     <div className="item_left">
                                                         <div className="dot clr_2">
@@ -45,7 +45,7 @@ const Mobile = () => {
                                     </div>
                                     <div className="info_container info_padding">
                                         <Grid container spacing={2}>
-                                            <Grid item xs={6}>
+                                            <Grid item lg={6} sm={6} xs={12}>
                                                 <div className="info_item">
                                                     <div className="item_left">
                                                         <div className="dot clr_3">
@@ -58,7 +58,7 @@ const Mobile = () => {
                                                     </div>
                                                 </div>
                                             </Grid>
-                                            <Grid item xs={6}>
+                                            <Grid item lg={6} sm={6} xs={12}>
                                                 <div className="info_item">
                                                     <div className="item_left">
                                                         <div className="dot clr_4">
@@ -74,7 +74,7 @@ const Mobile = () => {
                                         </Grid>
                                     </div>
                             </Grid>
-                            <Grid item xs={5}>
+                            <Grid item lg={5} xs={12}>
                                 <div className="mobile_container">
                                     <img src={mobileFrame} alt="" />
                                     <div className="image_preview">

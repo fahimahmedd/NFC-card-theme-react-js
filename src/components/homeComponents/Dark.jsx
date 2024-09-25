@@ -16,10 +16,10 @@ const Dark = () => {
                 <Container>
                     <div className="dark_top">
                         <Grid container spacing={2}>
-                            <Grid item xs={6}>
+                            <Grid item lg={6} xs={12}>
                                 <h2>100,000 +</h2>
                             </Grid>
-                            <Grid item xs={6}>
+                            <Grid item lg={6} xs={12}>
                                 <div className="d_text">
                                     Customer <br /> Using our smart Card
                                 </div>
@@ -29,7 +29,7 @@ const Dark = () => {
                     </div>
                     <div className="dark_middle">
                         <Grid container spacing={2}>
-                            <Grid item xs={6}>
+                            <Grid item lg={6} xs={12}>
                                 <div className="middle_left">
                                     <div className="sec_head">
                                         Contactless Sharing
@@ -38,7 +38,7 @@ const Dark = () => {
                                     <p>With NFC technology or QR codes, professionals can instantly exchange their contact details, eliminating the need for manual data entry. Unlike traditional cards that become outdated quickly, smart business cards can offer real-time updates. If your phone number or email address changes, your contacts will always have access to the most current information.</p>
                                 </div>
                             </Grid>
-                            <Grid item xs={6}>
+                            <Grid item lg={6} xs={12}>
                                 <div className="middle_right">
                                     <img src={demo1} alt="" />
                                 </div>
@@ -47,12 +47,12 @@ const Dark = () => {
                     </div>
                     <div className="dark_bottom">
                         <Grid container spacing={2}>
-                            <Grid item xs={6}>
+                            <Grid item lg={6} xs={12}>
                                 <div className="bottom_left">
                                     <img src={demo2} alt="" />
                                 </div>
                             </Grid>
-                            <Grid item xs={6}>
+                            <Grid item lg={6} xs={12}>
                                 <div className="bottom_right">
                                     <div className="sec_head">
                                         Contactless Sharing

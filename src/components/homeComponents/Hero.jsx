@@ -26,7 +26,7 @@ const Hero = () => {
                 <Container>
                     <div className="hero_wrapper">
                         <Grid container spacing={2} alignItems="center">
-                            <Grid item xs={7}>
+                            <Grid item lg={7} sm={7} xs={12}>
                                 <div className="hero_content">
                                     <div className="key_tag">NFC Digital Smart Card</div>
                                     <h1>A smart way <br /> to create Network  <br /> & Connect with others </h1>
@@ -41,7 +41,7 @@ const Hero = () => {
                                     </div>
                                 </div>
                             </Grid>
-                            <Grid item xs={5}>
+                            <Grid item lg={5} sm={5} xs={12}>
                                 <div className="slider_img">
                                     <img src={man1} alt="" />
                                 </div>

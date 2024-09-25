@@ -17,6 +17,7 @@
         padding: 0 15px 0 25px;
         margin: 0 auto;
         .header_logo{
+            line-height: 0px;
             img{
                 height: 19px;
                 width: auto;
@@ -49,11 +50,23 @@
                 border-radius: 35px;
                 padding: 8px 37px;
                 cursor: pointer;
+                &:hover{
+                    background-color: #000;
+                }
             }
         }
     }
 }
-
+.hambarger{
+    height: 35px;
+    width: 35px;
+    border: 1px solid #c3c3c3d8;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
 .sticky-nav {
     position: fixed;
     top: 0;
@@ -72,3 +85,5 @@
         top: 0px;
     }
   }
+
+  

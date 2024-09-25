@@ -17,7 +17,7 @@ const Buy = () => {
                     <h4>Which Card You Want to buy ?</h4>
                     <div className="buy_wrapper">
                         <Grid container spacing={2}>
-                            <Grid item xs={3}>
+                            <Grid item lg={3} md={4} xs={6}>
                                 <div className="buy_wrap">
                                     <div className="card_img">
                                         <Swiper
@@ -66,7 +66,7 @@ const Buy = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={3}>
+                            <Grid item lg={3} md={4} xs={6}>
                                 <div className="buy_wrap">
                                     <div className="card_img">
                                         <Swiper
@@ -115,7 +115,7 @@ const Buy = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={3}>
+                            <Grid item lg={3} md={4} xs={6}>
                                 <div className="buy_wrap">
                                     <div className="card_img">
                                         <Swiper
@@ -164,7 +164,7 @@ const Buy = () => {
                                 </div>
                             </Grid>
 
-                            <Grid item xs={3}>
+                            <Grid item lg={3} md={4} xs={6}>
                                 <div className="buy_wrap">
                                     <div className="card_img">
                                         <Swiper

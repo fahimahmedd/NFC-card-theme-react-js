@@ -2,7 +2,7 @@ import { Container } from '@mui/material'
 import logo from '../assets/image/logo.png'
 import { Link } from 'react-router-dom'
 import React, { useState, useEffect } from 'react';
-
+import ClearAllIcon from '@mui/icons-material/ClearAll';
 
 
 const Header = () =>{
@@ -38,6 +38,9 @@ const Header = () =>{
                     <div className="login_btn">
                         Login
                     </div>
+                </div>
+                <div className="hambarger">
+                  <ClearAllIcon/>
                 </div>
             </div>
         </Container>
