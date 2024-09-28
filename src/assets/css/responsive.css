@@ -36,8 +36,8 @@
         line-height: 300px;
     }
     .hero {
-        padding: 100px 0 0 0;
-        min-height: 100vh;
+        padding: 120px 0 0 0;
+        min-height: auto;
     }
     .introduce_wrapper .introduce_main_content h3 {
         font-size: 32px;
